@@ -104,7 +104,7 @@ s2.gsub!("_", " ")
 s2.capitalize
 s2.split.map { |x| x.capitalize }.join(" ")
 #s2.gsub(/\S+/, &:capitalize)
-  puts "  #{s2}: #{s.chomp(", ")}"
+  puts "  #{s2.capitalize}: #{s.chomp(", ")}"
     end
   end
 
