@@ -100,7 +100,7 @@ def all_supplies_in_holidays(holiday_hash)
     s<<"#{la}, "
   end
 
-  puts "#{s.chomp(", ")}\"
+  puts "#{s.chomp(", ")}"
     end
   end
 
