@@ -94,13 +94,13 @@ def all_supplies_in_holidays(holiday_hash)
   puts "#{holiday.to_s.capitalize}:"
   
   details.each do |attribute,data|
-  print "  #{attribute.to_s.capitalize}: \\\r"
+ # print "   \\\r"
   s=""
    data.each do |la|
     s<<"#{la}, "
   end
 
-  puts "#{s.chomp(", ")}"
+  puts "  #{attribute.to_s.capitalize}: #{s.chomp(", ")}"
     end
   end
 
