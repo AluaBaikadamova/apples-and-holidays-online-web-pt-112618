@@ -55,7 +55,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   
   holiday_hash.each do |holiday, details|
   if (holiday == season)
-  holiday<<{:holiday_name=>details}
+  holiday_hash[:holiday]={:holiday_name=>details}
     end
   end
 
