@@ -72,7 +72,9 @@ lala=[]
 holiday_hash.each do |holiday, details|
   if holiday == :winter
   details.each do |attribute,data|
-    lala<<data
+   data.each do |la|
+    lala<<la
+  end
     end
   end
 end
