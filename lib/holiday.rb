@@ -122,7 +122,8 @@ holiday_hash.each do |holiday, details|
   details.each do |attribute,data|
   t=false
    data.each do |la|
-    if (la.to_s.include? "BBQ")
+   s=la.to_s
+    if (s.include? "BBQ")
     t=true
   end
 end
@@ -130,7 +131,7 @@ end
   lala<<attribute.to_s
 end
   end
-  
+end
 return lala
 end
 
