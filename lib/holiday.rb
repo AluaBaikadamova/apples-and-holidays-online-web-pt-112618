@@ -100,7 +100,7 @@ def all_supplies_in_holidays(holiday_hash)
     s<<"#{la}, "
   end
 
-  puts "  #{attribute.to_s.capitalize}: #{s.chomp(", ")}"
+  puts "  #{attribute.to_s.first.upcase}: #{s.chomp(", ")}"
     end
   end
 
