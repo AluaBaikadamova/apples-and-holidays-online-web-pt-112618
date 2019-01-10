@@ -91,7 +91,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
   holiday_hash.each do |holiday, details|
-  puts "#{holiday}:
+  puts "#{holiday}\n"
   if holiday == :winter
   details.each do |attribute,data|
    data.each do |la|
