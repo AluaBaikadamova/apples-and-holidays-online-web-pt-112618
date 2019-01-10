@@ -99,8 +99,8 @@ def all_supplies_in_holidays(holiday_hash)
    data.each do |la|
     s<<"#{la}, "
   end
-  s=s[0..-1]
-  puts s
+  s=s[0..-2]
+  print s
     end
   end
 
