@@ -129,9 +129,7 @@ holiday_hash.each do |holiday, details|
   lala<<attribute.to_s
 end
   end
-    end
   end
-end
 return lala
 end
 
