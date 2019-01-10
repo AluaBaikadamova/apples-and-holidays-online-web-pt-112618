@@ -101,6 +101,7 @@ def all_supplies_in_holidays(holiday_hash)
   end
   s2=attribute.to_s
 s2.gsub!("_", " ")
+s2.capitalize
 s2.split.map { |x| x.capitalize }.join(" ")
 #s2.gsub(/\S+/, &:capitalize)
   puts "  #{s2}: #{s.chomp(", ")}"
