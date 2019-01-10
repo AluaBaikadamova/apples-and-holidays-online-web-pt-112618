@@ -91,7 +91,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
   holiday_hash.each do |holiday, details|
-  puts "#{holiday.title}:"
+  puts "#{holiday.to_s.capitalize}:"
   
   details.each do |attribute,data|
   puts "  #{atrtribute}: "
