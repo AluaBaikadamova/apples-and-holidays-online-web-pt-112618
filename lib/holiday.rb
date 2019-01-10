@@ -99,8 +99,9 @@ def all_supplies_in_holidays(holiday_hash)
    data.each do |la|
     s<<"#{la}, "
   end
-s2.gsub ‘_’, ’ ’
-  puts "  #{attribute.to_s.first.upcase}: #{s.chomp(", ")}"
+  s2=attribute.to_s
+s2.gsub ('_', ' ')
+  puts "  #{s2.first.upcase}: #{s.chomp(", ")}"
     end
   end
 
