@@ -100,7 +100,7 @@ def all_supplies_in_holidays(holiday_hash)
     s<<"#{la}, "
   end
   s=s[0..-2]
-  print s
+  print "#{s}
     end
   end
 
