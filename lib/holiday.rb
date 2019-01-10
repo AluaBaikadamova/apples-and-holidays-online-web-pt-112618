@@ -128,7 +128,7 @@ holiday_hash.each do |holiday, details|
   end
 end
   if (t==true)
-  lala<<attribute.to_s
+  lala<<attribute
 end
   end
 end
